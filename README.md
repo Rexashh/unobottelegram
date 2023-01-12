@@ -31,3 +31,8 @@ You can change some gameplay parameters like turn times, minimum amount of playe
 Current gamemodes available: classic, fast and wild. Check the details with the `/modes` command.
 
 Code documentation is minimal but there.
+
+I'm just a kangers not a maker
+
+Original repos : 
+[Jhoker](https://github.com/jh0ker/mau_mau_bot)
