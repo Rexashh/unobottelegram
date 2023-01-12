@@ -60,7 +60,7 @@ def help_handler(update: Update, context: CallbackContext):
       "Press the <code>Current game: ...</code> button and select the "
       "group you want to play a card in.\n"
       "• Jika ingin melihat Daftar Bot lainnya Klik :\n"
-      "<a href=\"https://t.me/tirexgugel">"
+      "<a href=\"https://t.me/tirexgugel\">"
       "Klik Disini</a>, Join Group :\n"
       "• Group :\n"
       "<a href=\"https://telegram.me/rexaprivateroom\">Klik Disini</a>"
