@@ -61,7 +61,7 @@ def help_handler(update: Update, context: CallbackContext):
       "group you want to play a card in.\n"
       "• Jika ingin melihat Daftar Bot lainnya Klik :\n"
       "<a href=\"https://t.me/tirexgugel">"
-      "Klik Disini</a>\n"
+      "Klik Disini</a>, Join Group :\n"
       "• Group :\n"
       "<a href=\"https://telegram.me/rexaprivateroom\">Klik Disini</a>"
       "👑 Owner :\n"
