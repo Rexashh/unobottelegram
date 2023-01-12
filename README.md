@@ -19,7 +19,7 @@ To run the bot yourself, you will need:
 
 ## Run on Vps
 
-- Clone Repository `https://github.com/Rexashh/uno && cd uno`
+- Clone Repository `https://github.com/Rexashh/unobottelegram && cd unobottelegram`
 - bash script compile.sh :
 - open locales `cd locales`
 - bash `bash compile.sh`
