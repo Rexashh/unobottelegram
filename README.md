@@ -17,9 +17,17 @@ To run the bot yourself, you will need:
 - Use `/setcommands` and submit the list of commands in commandlist.txt
 - Install requirements (using a `virtualenv` is recommended): `pip install -r requirements.txt`
 
+## Run on Vps
+
+- Clone Repository `https://github.com/Rexashh/uno && cd uno`
+- bash script compile.sh :
+- open locales `cd locales`
+- bash `bash compile.sh`
+- install req `pip install -r requirement.txt`
+- build screen `screen -S uno`
+- RUNING with `python3 bot.py`
+
 You can change some gameplay parameters like turn times, minimum amount of players and default gamemode in `config.json`.
 Current gamemodes available: classic, fast and wild. Check the details with the `/modes` command.
-
-Then run the bot with `python3 bot.py`.
 
 Code documentation is minimal but there.
