@@ -28,8 +28,8 @@ from internationalization import _, user_locale
 @user_locale
 def help_handler(update: Update, context: CallbackContext):
     """Handler for the /help command"""
-    help_text = _("[Halo](https://graph.org/file/5f411c75dc9672ac6515b.jpg)\n\n"
-  "⚠️ Ikuti langkah ini:\n\n"
+    help_text = _("Halo Aku adalah Bot uno Telegram\n\n"
+  "⚠️ Ikuti langkah ini untuk memainkan bot :\n\n"
       "1. Tambahkan bot ini ke grup\n"
       "2. Di grup, memulai permainan baru dengan /new atau bergabung sudah"
       " menjalankan permainan dengan /join\n"
@@ -58,14 +58,15 @@ def help_handler(update: Update, context: CallbackContext):
       "/disable_translations - Use English for those texts\n\n"
       "<b>Experimental:</b> Play in multiple groups at the same time. "
       "Press the <code>Current game: ...</code> button and select the "
-      "group you want to play a card in.\n"
-      "• Jika ingin melihat Daftar Bot lainnya Klik :\n"
+      "group you want to play a card in.\n\n"
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+      "• Jika ingin melihat Daftar Bot lainnya Klik : \n"
       "<a href=\"https://t.me/tirexgugel\">"
-      "Klik Disini</a>, Join Group :\n"
-      "• Group :\n"
-      "<a href=\"https://telegram.me/rexaprivateroom\">Klik Disini</a>"
-      "👑 Owner :\n"
-      "<a href=\"https://telegram.me/JustRex\">Rexa</a>"
+      "Klik Disini</a> \n"
+      "👥 Group : \n"
+      "<a href=\"https://telegram.me/rexaprivateroom\">Klik Disini</a> \n"
+      "👨‍💻 Owner :\n"
+      "<a href=\"https://telegram.me/JustRex\">Rexa</a> \n\n"
       "enjoy the game 😊.")
 
     send_async(context.bot, update.message.chat_id, text=help_text,
